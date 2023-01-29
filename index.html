@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" type="text/css" href="css\principal.css">
+    <link rel="shortcut icon" href="imagenes\cv.png">
     <script src="https://kit.fontawesome.com/28c2eb92f3.js" crossorigin="anonymous"></script>
 </head>
 
@@ -21,6 +22,7 @@
                 <img src="imagenes\foto_perfil.png" alt="Una foto de mi persona" id="foto_perfil">
             </span>
             <h2 id="titulo_centrado">Walter Coleman</h2>
+            <h2 id="subtitulo">Contador</h2>
             <br>
             <br>
             <br>
@@ -39,7 +41,7 @@
                 <li>Contador Público Nacional, 30/12/2022 en la <b><a
                             href="https://economicas.unsa.edu.ar/web/index.php/carreras/contador-publico-nacional"
                             target="blank">Universidad
-                            Nacional de Salta</a></b></li>
+                            Nacional de Salta</a></b>.</li>
             </ul>
             <br>
             <hr>
@@ -67,16 +69,16 @@
             <hr>
             <br>
             <div id="icono_boton_marco">
-                <span class="icono_boton">
-                    <i class="fa-solid fa-user fa-3x fa-beat" id="perfil_profesional" title="Perfil Profesional"></i>
-                </span>
-                <span class="icono_boton">
-                    <i class="fa-brands fa-readme fa-3x fa-beat" title="Referencias"></i>
-                </span>
+
+                <a>
+                    <span class="icono_boton" id="perfil_profesional">
+                        <i class="fa-solid fa-user-tie fa-3x fa-beat" title="Perfil Profesional"></i>
+                    </span>
+                </a>
 
                 <a href="https://ar.linkedin.com/" target="_blank">
                     <span class="icono_boton">
-                        <i class="fa-brands fa-linkedin fa-3x fa-beat" id="linkedin_link" title="Linkedin"></i>
+                        <i class="fa-brands fa-linkedin fa-3x fa-beat" title="Linkedin"></i>
                     </span>
                 </a>
 
@@ -86,16 +88,31 @@
                     </span>
                 </a>
 
-                <span class="icono_boton">
-                    <i class="fa-solid fa-download fa-3x fa-beat" title="Descargar como PDF"></i>
-                </span>
+                <a>
+                    <span class="icono_boton" id="descargar_pagina">
+                        <i class="fa-solid fa-download fa-3x fa-beat" title="Descargar"></i>
+                    </span>
+                </a>
 
 
                 <br>
                 <br>
             </div>
         </div>
-        </div>
+    </main>
+    <div id="desplegable" data-estado="0">
+        <h2>Perfil Profesional</h2>
+        <br>
+        <ul>
+            <li>Conocimientos del Plan General Contable.</li>
+            <li>Manejo de Excel y Word.</li>
+            <li>Formación avanzada en el sistema impositivo (IPRF, IVA y sociedades).</li>
+            <li>Seguimiento de clientes y proveedores.</li>
+            <li>Gran capacidad de trabajo y fuerte sentido de responsabilidad, rigor y compromiso.</li>
+        </ul>
+    </div>
+    <script src="js\funcionalidades.js"></script>
 </body>
+
 
 </html>
