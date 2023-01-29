@@ -10,7 +10,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #666666;
-    font-family: andale mono, monospace;
+    font-family: 'Montserrat';
+    font-style: normal;
     font-size: 1.2svw;
     text-indent: 2em;
     line-height: 150%;
